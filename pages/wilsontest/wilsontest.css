@@ -1,0 +1,71 @@
+.access {
+    text-align: center;
+}
+.explore-link {
+    text-align: center;
+    font-size: 1.8em;
+    display: block;
+}
+
+input.odswidget-searchbox__box {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 70%;
+    min-width: 150px;
+    padding: 0.5em;
+}
+
+.whitebox h1, .whitebox h2, .whitebox h3 {
+    text-align: center;
+}
+.odswidget-tag-cloud {
+    height: 400px;
+}
+
+.cod-home {
+    margin: -20px;
+}
+
+.cod-home__banner {
+    height: 490px;
+}
+.cod-home__banner {
+    background-image: url('/assets/theme_image/town_hall_fountains_cropped.jpg');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    max-width: 800px;
+}
+.cod_home__banner_title{
+    
+    padding-top: 15px;
+    padding-left: 70px;
+    text-align: left;
+    color:  #E3C24F;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+.cod-home__banner-form {
+    padding-top: 324px;
+    padding-bottom: 30px;
+}
+.cod-home__banner-form {
+    position: relative;
+}
+
+.odswidget-searchbox__box {
+    height: 50px;
+    color: #1a1a1a;
+    font-size: 23px;
+    line-height: 61px;
+}
+.odswidget-searchbox__box {
+   
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+
+}

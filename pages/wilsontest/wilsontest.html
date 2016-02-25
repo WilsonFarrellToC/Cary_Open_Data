@@ -1,0 +1,66 @@
+<div class="container-fluid">
+  <ods-catalog-context context="catalog" ods-domain-statistics>
+    <ods-dataset-context context="platform" platform-source="monitoring" platform-dataset="ods-datasets-monitoring">
+      <div class="cod-home ng-scope">
+        <div class="cod-home__banner">
+          <div class="container">          
+            <div class="row">
+              <div class="cod_home__banner_title">
+                Open Data
+              </div>
+              <div class="cod-home__banner-form">
+                <ods-searchbox placeholder="Search Cary's data..."></ods-searchbox>
+              </div>              
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="ods-box">
+            <h1 class="ods-page__dataset-of-dataset__section-title"><a href="/explore/" target="_self"><i class="fa fa-home"></i> <span translate>Browse Cary's catalog of datasets</span></a></h1>
+            <ods-theme-boxes context="catalog"></ods-theme-boxes>    
+          </div>
+        </div>
+        <div class="row">       
+          <div class="col-md-6">
+            <div class="ods-box">
+              <h2 class="ods-page__dataset-of-dataset__section-title" translate>Highlighted Citizen Developed App - WasteLine</h2>
+              <br />
+              The <a href="http://www.codeforcary.org/">Code for Cary Brigade</a>, a community organization, has developed this app to provide information and notification of Garbage and Recycling schedules to residents of Cary. 
+              <br />
+              <center><a href="http://wasteline.net/" target="_blank"><img src="/assets/theme_image/swtruck_small.jpg" width="300" height="200"></a></center>
+	      
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="ods-box">
+              <h2 class="ods-page__dataset-of-dataset__section-title" translate>Highlighted Advanced Visualization - DevMapp</h2>
+              <center><strong>Locations of development activity in Cary</strong></center>
+              <center><iframe src="https://data.townofcary.org/map/embed/cary_development/?&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe></center>
+            </div>
+          </div>
+        </div>	
+        <div class="row">
+          
+          <div class="col-md-4">
+            <div class="ods-box">
+              <h2 translate>Last modifications</h2>
+              <ods-last-datasets-feed context="catalog"></ods-last-datasets-feed>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ods-box">
+              <h2 class="ods-page__dataset-of-dataset__section-title" translate>Most popular data</h2>
+              <ods-most-popular-datasets context="catalog"></ods-most-popular-datasets>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ods-box">
+              <h2 class="ods-page__dataset-of-dataset__section-title" translate>Keywords</h2>
+              <ods-tag-cloud class="ods-page__dataset-of-dataset__tag-cloud" context="catalog" facet-name="keyword" max="50" redirect-to="/explore/"></ods-tag-cloud>	      
+            </div>
+          </div>
+        </div>      
+      </div>
+    </ods-dataset-context>
+  </ods-catalog-context>
+</div>
